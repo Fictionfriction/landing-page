@@ -8,9 +8,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;
+    padding: 0 48px;
     background-color: #1F2937;
-    
 }
 
 ul {
@@ -29,14 +28,41 @@ ul {
     background-color: #1F2937;
     display: flex;
     align-items: center;
+    padding: 0 48px;
+    gap: 16px;
 }
 
 .web-info {
     display: flex;
     flex-direction: column;
-    padding: 0 24px;
 }
 
 .web-info button {
     width: 100px;
 }
+
+.holder {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
