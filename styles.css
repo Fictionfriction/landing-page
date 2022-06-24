@@ -24,3 +24,19 @@ ul {
 .nav h2 {
     color: white;
 }
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.web-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.web-info button {
+    width: 100px;
+}
