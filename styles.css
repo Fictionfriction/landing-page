@@ -74,3 +74,19 @@ ul {
 .quote h2 {
     text-align: right;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .holder {
+    display: flex;
+    flex-grow: 1;
+    max-width: 1000px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
