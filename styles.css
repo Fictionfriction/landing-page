@@ -8,8 +8,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 48px;
+    padding: 0 200px;
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 ul {
@@ -20,6 +21,11 @@ ul {
     padding: 0;
 }
 
+li {
+    font-size: 18px;
+    color: #9c9d9f;
+}
+
 .nav h2 {
     color: white;
 }
@@ -28,7 +34,7 @@ ul {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 0 48px;
+    padding: 0 200px;
     gap: 16px;
 }
 
@@ -100,4 +106,14 @@ footer {
 footer .text {
     font-size: 24px;
     padding: 24px;
+}
+
+.nav h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 18px;
+    color: #9c9d9f;
 }
