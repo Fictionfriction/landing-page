@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #1F2937;
+    
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav h2 {
+    color: white;
+}
