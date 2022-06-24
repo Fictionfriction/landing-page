@@ -66,3 +66,11 @@ ul {
     text-align: center;
 }
 
+.quote {
+    text-align: center;
+    padding: 0 48px;
+}
+
+.quote h2 {
+    text-align: right;
+}
