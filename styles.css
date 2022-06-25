@@ -42,10 +42,6 @@ li {
     flex-direction: column;
 }
 
-.web-info button {
-    width: 100px;
-}
-
 .content .holder {
     height: 200px;
     width: 1000px;
@@ -94,11 +90,14 @@ li {
 .sign-up .holder {
     display: flex;
     flex-grow: 1;
-    max-width: 1000px;
-    padding: 24px;
+    max-width: 500px;
+    padding: 24px 230px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 100px;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 10px;
 }
 
 footer {
@@ -135,6 +134,7 @@ h2 {
     border-radius: 100px;
     height: 25px;
     border-color: #3882F6;
+    width: 100px;
 }
 
 .picture .holder {
@@ -166,4 +166,18 @@ h2 {
 .quote h2 {
     margin-left: 200px;
     color: black;
+}
+
+.holder button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.holder .text {
+    display: flex;
+    flex-direction: column;
 }
